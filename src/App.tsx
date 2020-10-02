@@ -7,19 +7,6 @@ import { IPlant } from "./models/plant";
 import { v4 as uuidv4 } from "uuid";
 import "./styles.css";
 
-/*
-## Task
-1. I should be able to see a list of plants displaying `{genus} {species}`.
-2. I should be able to see an indicator next to the plant displaying if its deceased or alive.
-3. I should be able to see and click on an [X] button to indicate that the plant has died.
-4. I should be able to filter data by family using a select.
-5. I should be able to filter data by genus using a select.
-6. I should be able to see the filters on the left hand side, and the list on the right hand side.
-7. I should be able to see a card/box around the filters.
-8. I should be able to see a styled select.
-9. I should be able to see a styled list.
-*/
-
 export const App = () => {
   const [unfilteredPlants, setUnfilteredPlants] = useState<IPlant[]>([]);
   const [plants, setPlants] = useState<IPlant[]>([]);
