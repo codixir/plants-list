@@ -1,0 +1,34 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container .title {
+  text-align: center;
+  padding: 15px;
+}
+
+.selection-container {
+  padding-top: 15px;
+}
+
+.card-styles {
+  display: flex;
+  align-items: center;
+  background: #eee;
+  padding: 15px;
+  padding: 15px;
+}
+
+.selects {
+  display: flex;
+  flex-direction: horizontal;
+}
+
+.plants-list-container {
+  padding-top: 15px;
+}
+
+.plants-list-container .title {
+  padding: 15px 0;
+}
